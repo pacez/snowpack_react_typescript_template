@@ -1,11 +1,6 @@
 /* Use this file to declare any custom file extensions for importing */
 /* Use this folder to also add/extend a package d.ts file, if needed. */
 
-// declare module '*.module.css' {
-//   const styles: object;
-//   export default styles
-// };
-
 declare module '*.scss'; // support for [name].module.scss Sass Modules
 declare module '*.css';
 declare module '*.svg' {
