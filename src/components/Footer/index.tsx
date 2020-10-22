@@ -1,4 +1,5 @@
 import React, { PureComponent, ReactNode } from 'react'
+import styles from './style.module.scss';
 
 interface Props { }
 interface State { }
@@ -6,7 +7,9 @@ interface State { }
 class Footer extends PureComponent<Props, State> {
 
     render(): ReactNode {
-        return <div>Footer</div>
+        return <div className={styles.footer}>
+           copyright © 2020 | pace_zhong@foxmail.com
+        </div>
     }
 }
 

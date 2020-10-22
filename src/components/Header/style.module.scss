@@ -1,0 +1,21 @@
+.header {
+    height: 60px;
+    font-size: 24px;
+    line-height: 20px;
+    background-color: #eee;
+    padding: 20px;
+    position: relative;
+    .menus {
+        font-size: 14px;
+        float: right;
+        a {
+            margin-left: 20px;
+        }
+    }
+    .logo {
+        float: left;
+    }
+}
+
+
+

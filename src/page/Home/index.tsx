@@ -13,7 +13,9 @@ class Index extends PureComponent<Props, State> {
     }
 
     render(): ReactNode {
-        return <div>Homepage</div>
+        return <div>
+            Home
+        </div>
     }
 }
 
